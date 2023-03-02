@@ -1,5 +1,8 @@
-//ejercicio 5 
-document.write("<h2>Ejercicio 5</h2>")
-let num1 = prompt("Escribe un número");
-let num2 = prompt("Escribe otro número");
-document.write("La suma es: "+ ( parseInt(num1)+ parseInt(num2)));
+//ejercicio 5
+let num1 = parseInt(prompt("Escribe un número"))
+let num2 = parseInt(prompt("Escribe otro número"))
+if (!isNaN(num1) && !isNaN(num2)) { 
+document.write("La suma es: "+ (num1 + num2))
+} else {
+    document.write("ingresaste un valor incorreccto")
+}
