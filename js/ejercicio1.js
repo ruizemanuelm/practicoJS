@@ -1,2 +1,2 @@
 //ejercicio 1 
-alert("un mensaje")
+alert("un mensaje");
